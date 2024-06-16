@@ -1,4 +1,5 @@
 package xyz.baisyou.util;
 
-public class chatUtil {
+public abstract class chatUtil {
+    // i impl later
 }
