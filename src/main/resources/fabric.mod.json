@@ -2,24 +2,24 @@
 	"schemaVersion": 1,
 	"id": "modid",
 	"version": "${version}",
-	"name": "Example mod",
-	"description": "This is an example description! Tell everyone what your mod is about!",
+	"name": "nix client",
+	"description": "This is an public utilization mod",
 	"authors": [
-		"Me!"
+		"baisyou"
 	],
 	"contact": {
-		"homepage": "https://fabricmc.net/",
-		"sources": "https://github.com/FabricMC/fabric-example-mod"
+		"homepage": "https://baisyou.xyz/nix",
+		"sources": "https://github.com/baisyoukin/nixclient"
 	},
 	"license": "CC0-1.0",
 	"icon": "assets/modid/icon.png",
 	"environment": "*",
 	"entrypoints": {
 		"main": [
-			"com.example.ExampleMod"
+			"xyz.baisyou.nix"
 		],
 		"client": [
-			"com.example.ExampleModClient"
+			"xyz.baisyou.ExampleModClient"
 		]
 	},
 	"mixins": [
